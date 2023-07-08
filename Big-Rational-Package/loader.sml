@@ -1,0 +1,11 @@
+CM.make("$/basis.cm");
+CM.make("$/ml-yacc-lib.cm");
+use "rational_ast.sml";
+use "rational.yacc.sig";
+use "rational.yacc.sml";
+use "rational.lex.sml";
+use "rational.sml";
+use "bigint.sml";
+Control.Print.printLength := 1000; 
+Control.Print.printDepth := 1000; 
+Control.Print.stringDepth := 1000;
